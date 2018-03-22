@@ -1,0 +1,352 @@
+/* Förstod inte att h1-h6 tagsen var olika h tags trodde men kunde använda h1-h∞ nu förtår jag att man kan använda samma h tag sålänge man ger h tagen en class eller ett id. Märkte detta när jag skulle göra mitt sjunde h tag (h7) orkade inte ändra mina andra h tags så därför är h6 det ända h taget med class!*/
+html, body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:	#88C4D8;
+}
+h3
+{
+  font-size: 180%;
+  padding: 0 0 0 450px;
+}
+h4
+{
+  text-align: left;
+}
+h5
+{
+  text-align: left;
+  font-size: 100%;
+  padding: 0 100px 0 0;
+}
+h6
+{
+  text-align: left;
+  font-size: 100%;
+  padding: 0 100px 0 0;
+}
+h6.Bra
+{
+  text-align: left;
+  font-size: 130%;
+  padding: 0 100px 0 0;
+}
+h6.Daligt
+{
+  text-align: left;
+  font-size: 130%;
+  padding: 0 100px 0 0;
+}
+section.sec2 p.Prog1
+{
+  padding: 0 280px 0 450px;
+}
+section.sec2 p.Prog2
+{
+  padding: 0 400px 0 0;
+}
+section.sec2 p.Prog3
+{
+  padding: 0 230px 0 0;
+}
+section.sec2 p.braq
+{
+display: table-cell;
+padding: 0 25px 0 0;
+text-align: justify;
+}
+section.sec2 p.braw
+{
+display: table-cell;
+padding: 0 25px 0 0;
+text-align: justify;
+}
+section.sec2 p.brae
+{
+display: table-cell;
+padding: 0 25px 0 0;
+text-align: justify;
+}
+section.sec2 p.daligtq
+{
+display: table-cell;
+padding: 0 25px 0 0;
+text-align: justify;
+}
+section.sec2 p.daligtw
+{
+display: table-cell;
+padding: 0 25px 0 0;
+text-align: justify;
+}
+section.sec2 p.daligte
+{
+display: table-cell;
+padding: 0 25px 0 0;
+text-align: justify;
+}
+section.sec2 p.Grace-Rub
+{
+  font-weight: bold;
+  font-size: 110%;
+  padding: 0 0 0 0;
+}
+section.sec2 p.Hedy-Rub
+{
+  font-weight: bold;
+  font-size: 110%;
+  padding: 0 0 0 0;
+}
+section.sec2 p.Ada-Rub
+{
+  font-weight: bold;
+  font-size: 110%;
+  margin: 0;
+  padding: 0 280px 0 450px;
+}
+
+section.sec2 p.ForegngI
+{
+  float: left;
+  font-family: 'Raleway', serif;
+  text-align: left;
+  display: block;
+  max-width: 35%;
+}
+section.sec2 p.stWebl
+{
+  font-family: 'Raleway', serif;
+  text-align: left;
+  display: block;
+  max-width: 35%;
+}
+section.sec2 p.Mosaic
+{
+  font-family: 'Raleway', serif;
+  text-align: left;
+  display: block;
+  max-width: 35%;
+}
+section.sec2 p.css
+{
+  font-family: 'Raleway', serif;
+  text-align: left;
+  max-width: 75%;
+}
+section.sec1
+{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url('html2.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.secom1
+{
+  text-align: left;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+  padding: 125px 75px 0 75px;
+  max-width: 35%;
+}
+.secom1 h1
+{
+  text-align: left;
+  width: 50%;
+  font-family: sans-serif;
+}
+nav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(0,0,0,0.6);
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+nav .brand
+{
+  float: left;
+  height: 100%;
+  padding: 0 0 100px 0;
+}
+nav.brand h2
+{
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+nav ul{
+  float: right;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li
+{
+  list-style: none;
+
+}
+nav ul li a
+{
+  position: relative;
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px;
+  box-sizing:  border-box;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s;
+}
+nav ul li a:hover
+{
+  color: #262626;
+}
+nav ul li a:before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform-origin: right;
+  z-index: -1;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+nav ul li a:hover:before
+{
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.nu
+{
+  background: rgba(192,192,192,0.3);
+}
+table
+{
+  border-collapse: collapse;
+}
+table.tabellmk
+{
+  float: left;
+  width: 25%;
+  height: 10%;
+}
+table, th, td
+{
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+}
+.sec2
+{
+  padding: 50px 0 50px 50px;
+}
+.toggle
+{
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 26px;
+  background: #f00;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+@media (max-width: 992px)
+{
+  nav .brand
+  {
+    padding: 0 0;
+  /*  background: rgba(255, 255, 255, 0.5);*/
+  }
+  nav ul
+  {
+    width: 100%;
+    top: 0;
+    display: none;
+  }
+  nav ul.active
+  {
+    display: block;
+  }
+  nav ul li a
+  {
+    margin: 0;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #262626;
+    background: rgba(0,0,0,0.6);
+  }
+}
+section.sec2 img.Arpa
+{
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 85px;
+  padding: 0 25px 10px 0;
+}
+section.sec2 img.Ada-Lovelance
+{
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
+  width: 230px;
+  height: 180px;
+  padding: 0 0 0 100px;
+}
+section.sec2 img.Grace-Hopper
+{
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
+  height: 120%;
+  padding: 0 0 0 100px;
+}
+section.sec2 img.Hedy-Lamarr
+{
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+  height: 170%;
+  padding: 0 30px 30px 0;
+}
+/*section.sec2 img.Sir_Tim_Berners_Lee
+{
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 85px;
+  padding: 0 25px 10px 0;
+}*/
+section.sec2 img.Communication
+{
+  width: 100%;
+  height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 0 35px 0;
+}
+section.sec2 img.Cyberbullying
+{
+  width: 100%;
+  height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 0 35px 0;
+}
